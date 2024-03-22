@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23E214" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Cars" representedClassName="Cars" syncable="YES" codeGenerationType="class">
+        <attribute name="car_body_type" optional="YES" attributeType="String"/>
+        <attribute name="car_fuel_type" optional="YES" attributeType="String"/>
+        <attribute name="car_gearmodels" optional="YES" attributeType="String"/>
+        <attribute name="car_models" optional="YES" attributeType="String"/>
+        <attribute name="car_years" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+    </entity>
+</model>
